@@ -3,26 +3,34 @@
 <head>
     <title>HTML Portfolio wireframe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
   <div>
-    <nav role="navigation"> 
-      <p>Hi, I'm Rena.</P> <button role="button" class="nav_btn1">Contact Me</button>
+    <nav role="navigation" class="navq"> 
+      <p>Hi, I'm Rena.</p> 
+      <a href="mailto:rlorkis1@gmail.com?Subject=Hello%20again" target="_blank">Contact Me</a>
     </nav>
   </div>
 
 <main role="main">
     
-<header role="banner">
- <h1>Hero</h1>
-  <div role="container" id="bio">
-    <p> short bio about me and my skill set </p>
+<header role="banner" id="hero">
+  <div role="container" class="bio">
+    <p> 
+      <div role="picplace" class="image">
+        <img src="https://images.unsplash.com/photo-1463171379579-3fdfb86d6285?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" width= "300", height= "200" alt="computer screen with hand">
+</div>
+      <br>
+      <br>
+      I am a current Thinkful bootcemp student. I am learning something new everyday and enjoying the ride. I am looking to become proficiant in both front end and back end web development. I am a team player who also enjoys working indapendently. I love creating, designing, and somether creative word rashon??.
+       </p>
     </div>
 </header>
- <section id="projects">
+ <section class="projects">
   <h2>Projects</h2>
+ </section>
+ <section role="container" class="section">
      <article>
       <h3>cool project</h3>
        <img src="https://picsum.photos/200" alt="bla">
@@ -47,12 +55,22 @@
        </p>
      </article>
     </section>
+    <section class="skills"> 
+      skills
+      <p> 
+        Said Skills are currently under construction. Building 10__20__....
+        </p>
+      </section>
   </main>
 
   <footer role="footer" class="footer">
-    <button role="button" class="nav_btn2">email</button>
-    <button role="button" class="nav_btn3">linkedIn</button>
-    <button role="button" class="nav_btn3">GitHub</button>
+    <button role="button" class="nav_btn2">email
+      <a href="mailto:rlorkis1@gmail.com" target="_blank"></a> 
+    </button>
+    <button role="button" class="nav_btn3">
+    <a href="https://github.com/RenaL1?tab=projects" target="_blank"></a>GitHub</button>
+    <button role="button" class="nav_btn3">LinkedIn</button>
+    <a href="no account yet" target="_blank"></a>
   </footer>
  
 </body>

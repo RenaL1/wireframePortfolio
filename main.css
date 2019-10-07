@@ -1,41 +1,88 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: "Open Sans",
-    sans-serif; 
-    font-size: 20px;
-    color: #444;
-    text-align: center;
-    line-height: 1.5;
-  }
-  
-  nav,
-  footer {
-    padding: 1% 0;
-    background-color: #aaa;
-  }
-           
-  
-  
-  nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
-  }
-  
-  
-  
-  header {
-    padding: 12% 0;
-  }
-  
-  article{
-    display:block;
-  }
-  
-  
-  
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans",
+  sans-serif; 
+  font-size: 20px;
+  color:rgb(37, 22, 22);
+  text-align: center;
+  line-height: 1.5;
+}
+
+nav,
+footer {
+  padding: 1% 0;
+  background-color:black;;
+}
+         
+
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+background-image:url(https://images.unsplash.com/photo-1475965894430-b05c9d13568a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60);
+}
+}
+.image{
+
+
+}
+.nav_btn1{
+box-shadow: 3px 3px;
+}
+
+
+
+header {
+  padding: 12% 0;
+}
+
+.article{
+  display:block;
+}
+
+.projects{
+  background-color:rgb(33, 45, 81);
+  font-style:oblique;
+  +++++ wantthis lettering to be teal 
+}
+
+#hero{
+  background-image: url(https://images.unsplash.com/photo-1515472379677-6c0ad8823829?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60);
+  padding: 10% 10%
+
+}
+.pic{
+background-image:url(https://images.unsplash.com/photo-1463171379579-3fdfb86d6285?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+display:-webkit-inline-box;
+}
+ .bio{
+ background-color:antiquewhite;
+ border-style:solid groove;
+ padding: 10% 10%
+}
+
+.footer{
+  background-color:rgb(33, 45, 81);
+}
+.nav_btn2{
+box-shadow: 3px 3px;
+
+}
+
+.nav_btn3{
+box-shadow: 3px 3px;
+
+}
+.nav_btn4{
+box-shadow: 3px 3px;
+
+}
+.skills{
+  background-color:antiquewhite;
+}
