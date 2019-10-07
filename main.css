@@ -29,7 +29,7 @@ background-image:url(https://images.unsplash.com/photo-1475965894430-b05c9d13568
 }
 
 .img1{
-  width: 250px;
+  width: 200px;
   padding-top: 50px;
 }
 
@@ -43,14 +43,9 @@ header {
   padding: 12% 0;
 }
 
-.article{
-  display:block;
-}
-
 .projects{
   background-color:rgb(33, 45, 81);
-  font-style:oblique;
- /* want this lettering to be teal  */
+  font-style:oblique; 
 }
 .title{
   color: antiquewhite;
@@ -78,19 +73,6 @@ display:-webkit-inline-box;
 .footer{
   background-color:rgb(33, 45, 81);
 }
-.nav_btn2{
-box-shadow: 3px 3px;
-
-}
-
-.nav_btn3{
-box-shadow: 3px 3px;
-
-}
-.nav_btn4{
-box-shadow: 3px 3px;
-
-}
 .skills{
   background-color:antiquewhite;
 }
@@ -98,6 +80,14 @@ box-shadow: 3px 3px;
 @media only screen and (min-width: 700px) {
   .img1 {
     padding-top:0px;
-     width: auto;
+     width: 250px;
+     padding-right: 20px;
   }
  }
+
+@media only screen and (min-width: 768px) {
+  .img1 {
+    padding-top:0px;
+    width: 250px;
+  }
+ } 
