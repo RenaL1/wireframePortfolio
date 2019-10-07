@@ -27,11 +27,12 @@ nav {
   z-index: 10;
 background-image:url(https://images.unsplash.com/photo-1475965894430-b05c9d13568a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60);
 }
-}
-.image{
 
-
+.img1{
+  width: 250px;
+  padding-top: 50px;
 }
+
 .nav_btn1{
 box-shadow: 3px 3px;
 }
@@ -49,7 +50,10 @@ header {
 .projects{
   background-color:rgb(33, 45, 81);
   font-style:oblique;
-  +++++ wantthis lettering to be teal 
+ /* want this lettering to be teal  */
+}
+.title{
+  color: antiquewhite;
 }
 
 #hero{
