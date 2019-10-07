@@ -94,3 +94,10 @@ box-shadow: 3px 3px;
 .skills{
   background-color:antiquewhite;
 }
+
+@media only screen and (min-width: 700px) {
+  .img1 {
+    padding-top:0px;
+     width: auto;
+  }
+ }
